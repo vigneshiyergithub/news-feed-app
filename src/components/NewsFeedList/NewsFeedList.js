@@ -61,7 +61,6 @@ const NewsFeedItem = ({ newsItem = {} }) => {
   const onTagClick = (tag) => {
     navigate(`../news/${tag}`, { replace: true });
   };
-  console.log(newsItem);
   const navigateToArticle = () => {
     window.open(newsItem.webUrl, "_blank");
   };
